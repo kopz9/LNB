@@ -3,4 +3,7 @@
     <string name="text_inicio">Inicio</string>
     <string name="text_notificacoes">Notificações</string>
     <string name="text_perfil">Perfil</string>
+    <string name="saldo">R$ 700,00 </string>
+    <string name="extrato">Ver extrato </string>
+    <string name="ola">Olá, Usuário!</string>
 </resources>

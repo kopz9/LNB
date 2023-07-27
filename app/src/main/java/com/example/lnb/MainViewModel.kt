@@ -7,6 +7,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
+// splash screen
+
+
 class MainViewModel: ViewModel() {
 
     private val _isLoading = MutableStateFlow(true)
@@ -14,7 +17,7 @@ class MainViewModel: ViewModel() {
 
     init {
         viewModelScope.launch {
-            delay(3000)
+            delay(5000)
             _isLoading.value = false
         }
     }
